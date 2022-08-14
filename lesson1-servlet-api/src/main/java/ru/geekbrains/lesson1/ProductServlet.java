@@ -1,4 +1,4 @@
-package ru.imbabot;
+package ru.geekbrains.lesson1;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

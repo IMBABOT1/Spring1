@@ -1,11 +1,18 @@
-package ru.imbabot;
+package ru.geekbrains.lesson2;
 
 public class Product {
+
+
     private Long id;
     private String title;
-    private int price;
+    private  int price;
 
-    public Product(String title, int price) {
+    public Product(){
+
+    }
+
+    public Product(Long id, String title, int price) {
+        this.id = id;
         this.title = title;
         this.price = price;
     }
@@ -34,11 +41,8 @@ public class Product {
         this.price = price;
     }
 
-
     @Override
     public String toString() {
-        return "id: " + id + " " + "title: " + title + " " + "price: " + price;
+        return id + " " + title + " " + price;
     }
-
 }
-

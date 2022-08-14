@@ -1,8 +1,6 @@
-package ru.imbabot;
+package ru.geekbrains.lesson1;
 
-import java.nio.file.attribute.UserPrincipal;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
