@@ -40,14 +40,17 @@
                 <div class="form-group">
                     <label>Title</label>
                     <input th:field="*{title}" type="text" class="form-control" id="title" name="title" placeholder="Enter title" >
+                    <p class="text-danger" th:if="${#fields.hasErrors('title')}" th:errors="*{title}"></p>
                 </div>
                 <div class="form-group">
                     <label>MinPrice</label>
                     <input th:field="*{minPrice}" type="number" class="form-control" id="MinPrice" name="MinPrice" placeholder="Enter MinPrice" >
+                    <p class="text-danger" th:if="${#fields.hasErrors('minPrice')}" th:errors="*{minPrice}"></p>
                 </div>
                 <div class="form-group">
                     <label>MaxPrice</label>
                     <input th:field="*{maxPrice}" type="number" class="form-control" id="MaxPrice" name="MaxPrice" placeholder="Enter MaxPrice" >
+                    <p class="text-danger" th:if="${#fields.hasErrors('maxPrice')}" th:errors="*{maxPrice}"></p>
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>

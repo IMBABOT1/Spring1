@@ -19,7 +19,7 @@
     <modules>
         <module>lesson1-servlet-api</module>
         <module>lesson2-spring-context</module>
-        <module>lesson3-spring-mvc</module>
+        <module>lesson4-spring-boot</module>
     </modules>
 
     <dependencies>

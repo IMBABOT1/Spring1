@@ -2,18 +2,27 @@ package ru.geekbrains.Persist;
 
 import lombok.Getter;
 import lombok.Setter;
+
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotBlank;
+
 @Getter
 @Setter
 public class Product {
 
     private Long id;
+
+    @NotBlank(message = "can not be empty!!!")
     private String title;
 
-    private int minPrice;
+    @Min(1)
+    private Integer minPrice;
 
-    private int maxPrice;
+    @Max(1000)
+    private Integer maxPrice;
 
-    public Product(Long id, String title, int minPrice, int maxPrice) {
+    public Product(Long id, String title, Integer minPrice, Integer maxPrice) {
         this.id = id;
         this.title = title;
         this.minPrice = minPrice;
