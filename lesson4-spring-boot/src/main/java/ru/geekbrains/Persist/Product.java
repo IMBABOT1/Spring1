@@ -8,12 +8,16 @@ public class Product {
 
     private Long id;
     private String title;
-    private int price;
 
-    public Product(Long id, String title, int price) {
+    private int minPrice;
+
+    private int maxPrice;
+
+    public Product(Long id, String title, int minPrice, int maxPrice) {
         this.id = id;
         this.title = title;
-        this.price = price;
+        this.minPrice = minPrice;
+        this.maxPrice = maxPrice;
     }
 
     public Product(){
@@ -22,7 +26,7 @@ public class Product {
 
     @Override
     public String toString() {
-        return id + " " + title + " " + price;
+        return id + " " + title + " " + minPrice + " " + maxPrice;
     }
 
 }

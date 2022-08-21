@@ -18,11 +18,11 @@ public class ProductRepository {
 
     @PostConstruct
     public void init() {
-        this.insert(new Product(1l, "first", 10));
-        this.insert(new Product(2l, "second", 20));
-        this.insert(new Product(3l, "third", 30));
-        this.insert(new Product(4l, "fourth", 40));
-        this.insert(new Product(5l, "fifth", 50));
+        this.insert(new Product(1l, "first", 10, 100));
+        this.insert(new Product(2l, "second", 20, 200));
+        this.insert(new Product(3l, "third", 30, 300));
+        this.insert(new Product(4l, "fourth", 40, 400));
+        this.insert(new Product(5l, "fifth", 50, 500));
     }
 
     public List<Product> findAll() {

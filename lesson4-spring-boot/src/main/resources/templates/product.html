@@ -44,14 +44,16 @@
                 <tr>
                     <th scope="col">Id</th>
                     <th scope="col">Title</th>
-                    <th scope="col">Price</th>
+                    <th scope="col">MinPrice</th>
+                    <th scope="col">MaxPrice</th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr th:each="poduct : ${products}">
                     <th scope="row" th:text="${poduct.id}">1</th>
                     <td th:text="${poduct.title}">title</td>
-                    <td th:text="${poduct.price}">price</td>
+                    <td th:text="${poduct.minPrice}">MinPrice</td>
+                    <td th:text="${poduct.maxPrice}">MaxPrice</td>
                     <td>
                         <a class="btn btn-success" th:href="@{/product/{id}(id = ${poduct.id})}"><i class="fas fa-edit"></i></a>
                         <a class="btn btn-danger"  th:href="@{/product/delete/{id}(id = ${poduct.id})}"><i class="far fa-trash-alt"></i></a>
