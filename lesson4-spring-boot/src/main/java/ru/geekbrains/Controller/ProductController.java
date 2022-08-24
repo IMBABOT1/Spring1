@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import ru.geekbrains.Persist.Product;
-import ru.geekbrains.Persist.ProductRepository;
+import ru.geekbrains.Entities.Product;
+import ru.geekbrains.Entities.ProductRepository;
 
 import javax.validation.Valid;
 

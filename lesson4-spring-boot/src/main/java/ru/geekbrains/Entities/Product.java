@@ -1,4 +1,4 @@
-package ru.geekbrains.Persist;
+package ru.geekbrains.Entities;
 
 import lombok.Getter;
 import lombok.Setter;
