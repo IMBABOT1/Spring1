@@ -5,6 +5,7 @@
     <file type="web" url="file://$PROJECT_DIR$/lesson1-servlet-api" />
     <file type="web" url="file://$PROJECT_DIR$/lesson3-spring-mvc" />
     <file type="web" url="file://$PROJECT_DIR$/lesson5-spring-hibernate" />
+    <file type="web" url="file://$PROJECT_DIR$/lesson6-spring-hibernate2" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

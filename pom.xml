@@ -21,6 +21,7 @@
         <module>lesson2-spring-context</module>
         <module>lesson4-spring-boot</module>
         <module>lesson5-spring-hibernate</module>
+        <module>lesson6-spring-hibernate2</module>
     </modules>
 
     <dependencies>
