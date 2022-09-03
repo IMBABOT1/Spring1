@@ -6,6 +6,7 @@
     <file type="web" url="file://$PROJECT_DIR$/lesson3-spring-mvc" />
     <file type="web" url="file://$PROJECT_DIR$/lesson5-spring-hibernate" />
     <file type="web" url="file://$PROJECT_DIR$/lesson6-spring-hibernate2" />
+    <file type="web" url="file://$PROJECT_DIR$/lesson7-spring-springdata" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -18,6 +19,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/lesson3-spring-mvc/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson7-spring-springdata/pom.xml" />
       </set>
     </option>
   </component>
